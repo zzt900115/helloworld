@@ -188,10 +188,10 @@
                enableDeleteByPrimaryKey="true"
                selectByExampleQueryId="true"
 
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
+               enableCountByExample="true"
+               enableUpdateByExample="true"
+               enableDeleteByExample="true"
+               enableSelectByExample="true"
                >
 
             <!-- 参考 javaModelGenerator 的 constructorBased属性-->
