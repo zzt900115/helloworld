@@ -5,7 +5,7 @@ FROM java:8
 VOLUME /app
 
 # COPY or ADD to image
-COPY helloworld-0.0.1-SNAPSHOT.jar app.jar
+ADD  helloworld-0.0.1-SNAPSHOT.jar app.jar
 
 RUN bash -c "touch /app.jar"
 EXPOSE 8080
